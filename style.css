@@ -64,6 +64,45 @@ body {
   display: none;
 }
 
+.search {
+  margin-bottom: 45px;
+}
+
+.search-box {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #256EEB;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.search-box input {
+  flex-grow: 1;
+  min-width: 0;
+  padding: 14px 22px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.search-btn {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn .search-btn_icon {
+  width: 15px;
+  height: 15px;
+}
+
+.search-btn .search-btn_text {
+  margin-left: 2px;
+  font-size: 16px;
+  line-height: 19px0;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 930px;
