@@ -102,7 +102,11 @@ body {
 .search-btn .search-btn_text {
   margin-left: 2px;
   font-size: 16px;
-  line-height: 19px0;
+  line-height: 19px;
+}
+
+.btn-large {
+  padding: 20px 95px;
 }
 
 .content {
@@ -271,11 +275,6 @@ body {
   line-height: 20px;
 }
 
-.btn-large {
-  width: 264px;
-  height: 54px;
-}
-
 @media (max-width: 1200px) {
   .container {
     max-width: 930px;
@@ -334,11 +333,11 @@ body {
   .headre-burger {
     display: block;
   }
+}
 
-  @media (max-width: 480px) {
-    .content-mine_list-item {
-      width: 100%;
-    }
+@media (max-width: 480px) {
+  
+  .content-mine_list-item {
+    width: 100%;
   }
-
 }
